@@ -2,9 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: 'Angular Minimal App',
 })
-export class AppComponent {
-  title = 'angular-minimal';
-}
+export class AppComponent {}
